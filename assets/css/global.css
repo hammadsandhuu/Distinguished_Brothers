@@ -90,8 +90,8 @@
 	--white-color-rgb:255,255,255;
 
 	/* #000000 in decimal RGB */
-	--black-color:rgb(0,0,0);
-	--black-color-rgb:0,0,0;
+	--black-color:#195283;
+	--black-color-rgb:#195283;
 
 }
 
@@ -165,7 +165,8 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    background: linear-gradient(135deg, rgba(239, 130, 67, 1) 0%, rgba(255, 101, 12, 1) 100%);
+	     background: #195283;
+
     z-index: 9999999;
     display: flex;
     justify-content: center;
@@ -188,7 +189,7 @@ body {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.8);
+    background: #9ecb46;
     animation: pulse 1.5s infinite cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -197,7 +198,7 @@ body {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.6);
+    background: #195283;
     animation: reverse-pulse 1.5s infinite cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -206,7 +207,7 @@ body {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background: white;
+    background:  #195283;
     animation: bounce 1.5s infinite cubic-bezier(0.4, 0, 0.2, 1);
 }
 

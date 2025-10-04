@@ -592,11 +592,11 @@
 	overflow:hidden;
 	border-radius:25px;
 	padding:12px 25px 30px;
-	background-image: linear-gradient(to bottom, #010101, #0c0c0c, #141414, #1a1a1a, #202020);
+	background-image: linear-gradient(to bottom, #195283,#195283, #195283,#195283,#195283);
 }
 
 .feature-block_two-inner:hover{
-	background-image: linear-gradient(to bottom, #fe5d01, #f65a01, #ed5701, #e55401, #dd5101);
+	background-image: linear-gradient(to bottom, #9ecb46, #9ecb46,#9ecb46,#9ecb46,#9ecb46);
 }
 
 .feature-block_two-title{

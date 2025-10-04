@@ -5,7 +5,7 @@
 :root {
 	
 	/* #ff650c in decimal RGB */
-    --main-color: rgb(255,101,12);
-	--main-color-rgb:255,101,12;
+    --main-color: rgba(158, 203, 70, 1);;
+	--main-color-rgb:rgba(158, 203, 70, 1);;
 	
 }
