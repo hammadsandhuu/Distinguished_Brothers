@@ -10365,6 +10365,68 @@
     border-radius: 72px;
 }
 
-.color-palate{
-	display:none;
+
+
+/* 🌐 Translator Styles */
+.translate-widget {
+	position: relative;
+	display: inline-block;
+	margin-left: 20px;
+	z-index: 9999;
+}
+
+.translate-btn {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #f1f1f1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+	transition: all 0.3s ease;
+}
+
+.translate-btn:hover {
+	background: #007bff;
+	color: #fff;
+}
+
+.translate-btn i {
+	font-size: 18px;
+	color: #333;
+	transition: color 0.3s;
+}
+
+.translate-btn:hover i {
+	color: #fff;
+}
+
+.translate-menu {
+	display: none;
+	position: absolute;
+	top: 50px;
+	right: 0;
+	background: #fff;
+	border-radius: 8px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+	list-style: none;
+	padding: 8px 0;
+	margin: 0;
+	min-width: 130px;
+	text-align: left;
+}
+
+.translate-menu li {
+	padding: 8px 15px;
+	cursor: pointer;
+	transition: background 0.2s;
+	font-size: 14px;
+	font-weight: 500;
+	color: #333;
+}
+
+.translate-menu li:hover {
+	background: #f0f0f0;
 }
